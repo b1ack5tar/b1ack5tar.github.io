@@ -19,7 +19,7 @@ title: 小梦贴贴 # the main title
 tagline: 这世上充满了等待被解决的迷人问题 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  小梦贴贴的个人博客，关注AI、硬件与网络安全。
+  记录 AI、硬件安全与网络攻防领域的分析与实践。
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.

@@ -11,9 +11,9 @@ order: 4
 
 ## <i class="fa-solid fa-compass"></i> 致力于
 
-- <i class="fa-solid fa-brain"></i> **AI**：LLM、Agent与有趣的实践
-- <i class="fa-solid fa-microchip"></i> **硬件安全**：故障注入、侧信道攻击与固件分析
-- <i class="fa-solid fa-shield-halved"></i> **网络安全**：Web攻防、二进制安全与实践记录
+- <i class="fa-solid fa-brain"></i> **AI**：LLM、Agent 与 RAG
+- <i class="fa-solid fa-microchip"></i> **硬件安全**：故障注入、侧信道分析与嵌入式安全
+- <i class="fa-solid fa-shield-halved"></i> **网络安全**：密码学、云安全与二进制安全
 
 ## <i class="fa-solid fa-paper-plane"></i> 联系我
 
