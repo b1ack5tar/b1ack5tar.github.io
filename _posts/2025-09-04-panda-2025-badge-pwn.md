@@ -51,11 +51,7 @@ description: 利用 STM32 固件中的栈溢出漏洞跳转后门，并通过 SR
 
 ![](/assets/img/posts/panda-2025-badge-pwn/4.png){: .normal }
 
-后门函数的实际入口地址为 `0x0800552C`。由于 Cortex-M 只执行 Thumb 指令，写入 PC 的目标地址最低位必须为 `1`，因此 payload 中应使用：
-
-```text
-0x0800552D = 0x0800552C | 1
-```
+后门函数的实际入口地址为 `0x0800552C`。由于 Cortex-M 只执行 Thumb 指令，写入 PC 的目标地址最低位必须为 `1`，因此 payload 中应使用 `0x0800552D = 0x0800552C | 1`：
 
 > 地址最低位用于指示 Thumb 状态，并不属于实际取指地址。如果直接跳转到偶地址 `0x0800552C`，处理器会触发异常。
 {: .prompt-warning }
@@ -90,10 +86,6 @@ ret
 ![](/assets/img/posts/panda-2025-badge-pwn/7.png){: .normal }
 
 根据汇编中的寄存器保存顺序和动态调试结果，需要先覆盖保存的 `r1` 至 `r5`，再将保存的返回地址覆盖为 `0x0800552D`，最后将输入补足至程序要求的 300 字节。
-
-```text
-[20 字节填充][2d 55 00 08][继续填充至 300 字节]
-```
 
 ![](/assets/img/posts/panda-2025-badge-pwn/8.png){: .normal }
 
