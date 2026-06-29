@@ -4,10 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Hi，我是**小梦贴贴**，欢迎来到我的博客。
-{: .prompt-tip }
+## <i class="fa-solid fa-user"></i> 我是谁
 
-这是一个持续生长的数字花园。我会把学习过程中的思考、实践和踩坑记录下来，希望这些内容不只对未来的自己有用，也能给偶然来到这里的你一点启发。
+我是小梦贴贴，北京某高校网安研究生一枚。
 
 ## <i class="fa-solid fa-compass"></i> 致力于
 
