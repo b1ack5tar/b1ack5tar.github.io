@@ -1,5 +1,5 @@
 ---
-title: "MoeCTF 2025 Pwn: boom&boom_revenge"
+title: "MoeCTF 2025 Pwn：boom&boom_revenge"
 date: 2025-09-27 12:00:00 +0800
 categories: [网络安全, Pwn]
 tags: [MoeCTF, Pwn, 栈溢出]
