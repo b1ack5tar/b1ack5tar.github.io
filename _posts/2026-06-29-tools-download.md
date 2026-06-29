@@ -17,7 +17,8 @@ image:
 
 ![](/assets/img/posts/tools-download/1.png){: .normal }
 
-点击下载：[正点原子串口调试助手.zip](/assets/files/tools-download/正点原子串口调试助手.zip)
+- 点击下载：[正点原子串口调试助手.zip](/assets/files/tools-download/正点原子串口调试助手.zip)
+- SHA-256：`58CEDA0D85FD4D12A5E0FE2F7E481AEACDA9888D954C59C165E8A0107C89D44A`
 
 这是一个常见的 Windows 串口调试工具，适合在设备已经枚举成 `COM` 口后，用来查看串口输出、发送测试命令，或者直接收发十六进制数据。
 
@@ -29,7 +30,8 @@ image:
 
 ![](/assets/img/posts/tools-download/2.png){: .normal }
 
-点击下载：[zadig-2.9.zip](/assets/files/tools-download/zadig-2.9.zip)
+- 点击下载：[zadig-2.9.zip](/assets/files/tools-download/zadig-2.9.zip)
+- SHA-256：`C3F478FBC251C49331ABA5A28AF24580B19E6E8F540EF4EE0FA1D5F95391C27A`
 
 Zadig 用来给 USB 设备安装或替换 `WinUSB`、`libusb-win32`、`libusbK` 等驱动，常见于 `pyusb`、`libusb`、OpenOCD 或其他需要直接访问 USB 设备的场景。
 
