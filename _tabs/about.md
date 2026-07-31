@@ -10,9 +10,10 @@ order: 4
 
 ## <i class="fa-solid fa-compass"></i> 致力于
 
-- <i class="fa-solid fa-microchip"></i> **硬件安全**：故障注入与侧信道分析
-- <i class="fa-solid fa-brain"></i> **AI Infra**：LLM 与 Agent
-- <i class="fa-solid fa-shield-halved"></i> **云安全**：密码学与二进制安全
+- <i class="fa-solid fa-microchip"></i> **硬件安全**：故障注入
+- <i class="fa-solid fa-key"></i> **密码学**：密码分析与侧信道分析
+- <i class="fa-solid fa-server"></i> **AI Infra**：LLM 推理与 Agent 系统
+- <i class="fa-solid fa-shield-halved"></i> **软件安全**：Web 安全与二进制安全
 
 ## <i class="fa-solid fa-paper-plane"></i> 联系我
 
