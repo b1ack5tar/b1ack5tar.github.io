@@ -10,9 +10,9 @@ order: 4
 
 ## <i class="fa-solid fa-compass"></i> 致力于
 
-- <i class="fa-solid fa-brain"></i> **AI**：LLM、Agent 与 RAG
-- <i class="fa-solid fa-microchip"></i> **硬件安全**：故障注入、侧信道分析与嵌入式安全
-- <i class="fa-solid fa-shield-halved"></i> **网络安全**：密码学、云安全与二进制安全
+- <i class="fa-solid fa-microchip"></i> **硬件安全**：故障注入与侧信道分析
+- <i class="fa-solid fa-brain"></i> **AI Infra**：LLM 与 Agent
+- <i class="fa-solid fa-shield-halved"></i> **云安全**：密码学与二进制安全
 
 ## <i class="fa-solid fa-paper-plane"></i> 联系我
 
